@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <h1>Aria Yousefi</h1>
+      <h2>Hello</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           you have touched me {count} times
