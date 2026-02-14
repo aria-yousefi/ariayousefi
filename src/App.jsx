@@ -28,6 +28,12 @@ import PavePage from './pages/PavePage';
 import IotAcresPage from './pages/IotAcresPage';
 import ScrollToTop from './components/ScrollToTop';
 
+// Import images for the carousel
+import profilePhoto from './assets/profile-photo.jpg';
+import resumeThumbnail from './assets/coding.jpg';
+import paveLogo from './assets/pave-logo.png';
+import ufIotImage from './assets/uf-iot.jpg';
+
 const BLUE_LIGHTER = '#C3E5E7';
 const BLUE_LIGHT = '#A5D6D9';
 const BLUE_MID = '#699FA1';
@@ -112,25 +118,25 @@ const PortfolioCarousel = () => {
     {
       key: 'about',
       title: 'About Me',
-      image: 'src/assets/profile-photo.jpg',
+      image: profilePhoto,
       path: '/about',
     },
     {
       key: 'resume',
       title: 'Resume',
-      image: 'src/assets/coding.jpg',
+      image: resumeThumbnail,
       path: '/resume',
     },
     {
       key: 'pave',
       title: 'Pave',
-      image: 'src/assets/pave-logo.png',
+      image: paveLogo,
       path: '/project/pave',
     },
     {
       key: 'iot-acres',
       title: 'UF IoT ACRES',
-      image: 'src/assets/uf-iot.jpg',
+      image: ufIotImage,
       path: '/project/iot-acres',
     },
   ];

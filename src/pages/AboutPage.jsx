@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import profilePhoto from '../assets/profile-photo.jpg';
 
 // Color constants
 const BLUE_LIGHTER = '#C3E5E7';
@@ -37,7 +38,7 @@ const AboutPage = () => {
           <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
             <Avatar
               alt="Aria Yousefi"
-              src="/src/assets/profile-photo.jpg"
+              src={profilePhoto}
               sx={{ width: 200, height: 200, margin: 'auto', border: `4px solid ${ORANGE_DARK}` }}
             />
           </Grid>
