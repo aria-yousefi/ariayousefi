@@ -108,7 +108,7 @@ const ResumePage = () => {
                 <Typography variant="body1" color="grey.700">January 2025 – December 2026</Typography>
               </Grid>
             </Grid>
-            <Typography variant="body1" sx={{ fontStyle: 'italic' }}>M.S. in Computer Science (GPA: 3.72)</Typography>
+            <Typography variant="body1" sx={{ fontStyle: 'italic' }}>M.S. in Computer Science</Typography>
           </Box>
           <Box>
             <Grid container justifyContent="space-between" alignItems="center">
@@ -119,7 +119,22 @@ const ResumePage = () => {
                 <Typography variant="body1" color="grey.700">August 2020 – May 2024</Typography>
               </Grid>
             </Grid>
-            <Typography variant="body1" sx={{ fontStyle: 'italic' }}>B.Des. in Architecture, Minor in Computer Science (GPA: 3.54)</Typography>
+            <Typography variant="body1" sx={{ fontStyle: 'italic' }}>B.Des. in Architecture, Minor in Computer Science</Typography>
+          </Box>
+        </Box>
+
+        {/* Relevant Coursework */}
+        <Box sx={{ mb: 4 }}>
+          <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', borderBottom: `2px solid ${ORANGE_LIGHT}`, pb: 1, mb: 2 }}>
+            Relevant Coursework
+          </Typography>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+            {[
+              'Intermediate Urban Analytics', 'Software Engineering', 'User Experience Design',
+              'Trustworthy Machine Learning', 'Advanced Data Structures', 'Data Structures and Algorithms', 'Architectural Design'
+            ].map(course => (
+              <Chip label={course} key={course} sx={{ backgroundColor: BLUE_LIGHTER, color: 'grey.800', fontWeight: 500 }} />
+            ))}
           </Box>
         </Box>
 
@@ -132,7 +147,32 @@ const ResumePage = () => {
             <Avatar src={ufLogo} sx={{ width: 56, height: 56, mr: 2, border: '1px solid #eee' }} variant="rounded" />
             <Box sx={{width: '100%'}}>
               <Grid container justifyContent="space-between">
-                <Grid item><Typography variant="h6" sx={{ fontWeight: 'bold' }}>Lead Software Engineer</Typography></Grid>
+                <Grid item>
+            <Typography variant="h6">
+              <Button
+                variant="outlined"
+                onClick={() => navigate('/project/iot-acres')}
+                sx={{
+                  // Match the style of the 'View My Resume' button
+                  borderColor: ORANGE_DARK,
+                  color: ORANGE_DARK,
+                  '&:hover': {
+                    borderColor: ORANGE_DARK,
+                    backgroundColor: 'rgba(223, 112, 39, 0.1)',
+                  },
+                  // Adjust for alignment and inline appearance
+                  py: 0,
+                  px: 1,
+                  verticalAlign: 'baseline',
+                  textTransform: 'none',
+                  fontWeight: 'bold',
+                  fontSize: 'inherit',
+                  fontFamily: 'inherit',
+                }}
+              >
+                Lead Software Engineer
+              </Button>
+              </Typography></Grid>
                 <Grid item><Typography variant="body1" color="grey.700">October 2025 – Present</Typography></Grid>
               </Grid>
               <Typography variant="body1" sx={{ fontStyle: 'italic' }}>UF IoT ACRES</Typography>

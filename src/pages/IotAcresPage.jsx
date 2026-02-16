@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import iotPoster from '../assets/iot-poster.jpg';
 
 // Color constants
 const BLUE_LIGHTER = '#C3E5E7';
@@ -38,6 +39,17 @@ const IotAcresPage = () => {
           <Typography variant="h6" paragraph sx={{ color: 'grey.700', mb: 4 }}>
             A full-stack platform for construction site IoT telemetry.
           </Typography>
+          <Box
+            component="img"
+            src={iotPoster}
+            alt="IoT ACRES Poster"
+            sx={{
+              width: '100%',
+              borderRadius: '8px',
+              boxShadow: '0 4px 20px -5px rgba(0,0,0,0.2)',
+              mt: 2,
+            }}
+          />
         </Box>
       </Container>
     </Box>

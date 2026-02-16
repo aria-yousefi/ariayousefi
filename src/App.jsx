@@ -177,18 +177,18 @@ const PortfolioCarousel = () => {
       </Typography>
       <Box sx={{ opacity: 0, animation: 'fadeIn 0.7s ease-out 0.5s forwards'}}>
         <IconButton
-          aria-label="LinkedIn"
-          onClick={() => window.open('https://linkedin.com/in/aria-yousefi-ufl', '_blank')}
-          sx={{ color: 'grey.800', '&:hover': { color: ORANGE_DARK, transform: 'scale(1.1)' }, transition: 'transform 0.2s' }}
-        >
-          <LinkedInIcon sx={{ fontSize: 30 }} />
-        </IconButton>
-        <IconButton
           aria-label="Email"
           onClick={() => window.location.href = 'mailto:aria.yousefi.swe@gmail.com'}
           sx={{ color: 'grey.800', '&:hover': { color: ORANGE_DARK, transform: 'scale(1.1)' }, transition: 'transform 0.2s' }}
         >
           <EmailIcon sx={{ fontSize: 30 }} />
+        </IconButton>
+        <IconButton
+          aria-label="LinkedIn"
+          onClick={() => window.open('https://linkedin.com/in/aria-yousefi-ufl', '_blank')}
+          sx={{ color: 'grey.800', '&:hover': { color: ORANGE_DARK, transform: 'scale(1.1)' }, transition: 'transform 0.2s' }}
+        >
+          <LinkedInIcon sx={{ fontSize: 30 }} />
         </IconButton>
         <IconButton
           aria-label="GitHub"
