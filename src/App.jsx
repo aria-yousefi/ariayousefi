@@ -31,8 +31,8 @@ import ScrollToTop from './components/ScrollToTop';
 // Import images for the carousel
 import profilePhoto from './assets/profile-photo.jpg';
 import resumeThumbnail from './assets/coding.jpg';
-import paveLogo from './assets/pave-logo.png';
-import ufIotImage from './assets/uf-iot.jpg';
+import paveLogo from './assets/city-intersection.jpg';
+import ufIotImage from './assets/construction-site.jpg';
 
 const BLUE_LIGHTER = '#C3E5E7';
 const BLUE_LIGHT = '#A5D6D9';

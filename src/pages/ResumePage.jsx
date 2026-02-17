@@ -51,8 +51,8 @@ const ResumePage = () => {
             download="Aria_Yousefi_Resume.pdf"
             startIcon={<DownloadIcon />}
             sx={{
-              borderColor: BLUE_MID,
-              color: BLUE_MID,
+              borderColor: ORANGE_DARK,
+              color: ORANGE_DARK,
               '&:hover': {
                 borderColor: ORANGE_DARK,
                 backgroundColor: 'rgba(223, 112, 39, 0.04)',
