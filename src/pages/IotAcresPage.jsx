@@ -61,7 +61,7 @@ const IotAcresPage = () => {
             Project Overview
           </Typography>
           <Typography variant="body1" paragraph sx={{ color: 'grey.800', fontSize: '1.1rem', mt: 2 }}>
-            The IoT ACRES project at the University of Florida is a full-stack platform designed to bring real-time data monitoring to active construction sites. The system captures environmental and structural telemetry via LoRa sensors, processes it through a cloud pipeline, and presents it on a live dashboard for project managers.
+            The IoT ACRES project at the University of Florida is a full-stack platform built to bring real-time data monitoring to active construction sites. I lead development of the web application and backend services, building a real-time data pipeline that captures environmental data (i.e., temperature, humidity) via LoRa sensors, processes it through a Node.js backend, and stores it in a cloud database. The system presents live and historical site data through a React dashboard designed for project managers.          
           </Typography>
         </Box>
 
