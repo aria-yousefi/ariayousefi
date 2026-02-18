@@ -87,7 +87,7 @@ const AboutPage = () => {
               I'm a software engineer with a passion for finding intersections between technology and the built environment. My background in both architecture and computer science gives me a unique perspective towards finding solutions for our physical spaces with digital tools.
             </Typography>
             <Typography variant="body1" paragraph sx={{ color: 'grey.800', fontSize: '1.1rem' }}>
-              This interest has led me to projects like developing a full-stack IoT platform for construction site analytics and building Pave, a mobile app for 311 reporting that uses object detection to identify infrastructure issues. I enjoy the challenge of tackling complex, real-world problems and creating tools that have tangible impacts. My goal is to contribute to smarter and more responsive systems within our cities and communities.
+              This interest has led me to projects like leading the software team at University of Florida's IoT ACRES, a full-stack IoT platform for real-time construction site analytics, and building Pave, a mobile app for 311 reporting that uses object detection to identify infrastructure issues. I enjoy the challenge of tackling complex, real-world problems and creating tools that have tangible impacts. My goal is to contribute to smarter and more responsive systems within our cities and communities.
             </Typography>
             <Typography variant="body1" paragraph sx={{ color: 'grey.800', fontSize: '1.1rem' }}>
               When I'm not building software, I like to spend my time exploring new places, writing music, or having a good cup of espresso. I also enjoy capturing moments on my film camera: a few of which you can see below.
